@@ -1,0 +1,4 @@
+a[href="/contact"] {
+  text-decoration: solid underline var(--primary-color) 2px !important;
+  text-underline-offset: 5px !important;
+}

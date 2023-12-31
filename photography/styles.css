@@ -1,0 +1,48 @@
+a[href="/photography"] {
+  text-decoration: solid underline var(--primary-color) 2px !important;
+  text-underline-offset: 5px !important;
+}
+
+#gallery {
+  /* margin: auto;
+  width: 90%;
+  line-height: 0;
+  column-count: 1;
+  column-gap: 5px; */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery img {
+  width: 100%;
+  max-width: max-content;
+  margin: 10px;
+}
+
+/* @media (max-width: 1200px) {
+  #gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 1000px) {
+  #gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  #gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  #gallery {
+    column-count: 1;
+  }
+} */
