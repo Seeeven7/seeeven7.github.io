@@ -6,7 +6,7 @@ const menu = `
     <a class="nav-link" href="/dev-projects">Dev Projects</a>
   </li>
   
-  <li><a class="nav-link" href="/photography">Photography</a></li>
+  <li><a class="nav-link" href="/photo-gallery">Photo Gallery</a></li>
   
   <li><a class="nav-link" href="/about">About</a></li>
   

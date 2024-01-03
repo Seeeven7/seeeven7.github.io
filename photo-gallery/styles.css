@@ -1,0 +1,64 @@
+a[href='/photo-gallery'] {
+  text-decoration: solid underline var(--primary-color) 2px !important;
+  text-underline-offset: 5px !important;
+}
+
+/*
+column approach
+https://medium.com/@MilesOfRoses/css-image-gallery-for-pictures-with-different-aspect-ratios-a20ffecb75d5
+*/
+#gallery {
+  column-count: 3;
+  gap: 0.5vw;
+  margin: 1vw;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+lazy loaded images
+https://blog.webdevsimplified.com/2023-05/lazy-load-images/
+*/
+
+.image-wrapper img {
+  background-size: cover;
+}
+
+/*
+.image-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  animation: pulse 2.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+} */
+
+@media (max-width: 1000px) {
+  #gallery {
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery {
+    column-count: 1;
+  }
+}
