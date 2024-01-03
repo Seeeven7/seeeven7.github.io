@@ -4,8 +4,6 @@ This is my personal Developer Portfolio Website.
 
 ### Built With
 
-Vanilla / Pure
-
-- JavaScript
+- Vanilla JS, no frameworks or libraries
 - HTML
 - CSS
