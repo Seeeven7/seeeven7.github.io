@@ -1,13 +1,21 @@
 function addTemplates() {
-  document.getElementById('menu').innerHTML = menu;
-  document.querySelector('footer').innerHTML = footer;
+  document.getElementById("menu").innerHTML = menu;
+  document.querySelector("footer").innerHTML = footer;
 }
 
 function addEventListeners() {}
 
+function sayHelloInConsole() {
+  console.log(
+    "%cHey there, I am not hiring but I am interested to work with you! Just contact me.",
+    "color: grey; font-weight: bold; background-color: black;padding: 5px; font-size: 1.5em;"
+  );
+}
+
 (function main() {
   addTemplates();
   addEventListeners();
+  sayHelloInConsole();
 })();
 
 //helper
