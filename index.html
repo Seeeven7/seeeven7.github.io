@@ -28,6 +28,15 @@
 
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <link rel="icon" type="image/x-icon" href="favicon.svg" />
 
     <script src="./templates.js" defer></script>
@@ -39,17 +48,22 @@
   <body>
     <nav id="menu"></nav>
 
-    <div id="content">
-      <h1>Hi there!</h1>
+    <div id="about">
+      <h1><a class="section" href="#about">About me & this Website</a></h1>
 
       <img src="/images/avatar.png" alt="" />
 
-      <h2>About this Website</h2>
+      <h2></h2>
+
       <p>
-        <b>I</b> am Chris and this is my personal Developer Portfolio. At the
-        same time it's a working example for making a simple, static, website
+        <b>Hi, I</b> am Chris and this is my personal Developer Portfolio. I am
+        a Software Developer and tester.
+      </p>
+
+      <p>
+        This site is a working example for making a simple, static, website
         without the help of any frameworks, libraries or static site generators.
-        With just the <b>basics of Frontend Web Development</b>.
+        With <i>only</i> the <b>basics of Frontend Web Development</b>.
       </p>
 
       <p><b>This</b> Website is built with</p>
@@ -62,7 +76,7 @@
           <b>CSS</b>. No Frameworks/Libraries like Tailwind or CSS Preprocessors
           like Sass.
         </li>
-        <li><b>Vanilla JS</b>. No React, no JSX and no Build step.</li>
+        <li><b>JS</b>. Vanilla JS, no React, no JSX and no Build step.</li>
       </ul>
 
       <p>
@@ -83,45 +97,78 @@
         the right tool for the job and it might make things more difficult.
       </p>
 
-      <h2>My usual Tech Stack</h2>
+      <h2><i class="fa-solid fa-layer-group"></i> My Tech Stack</h2>
 
       <ul>
         <li>
           Programming Languages
           <ul>
-            <li>Javascript</li>
+            <li><i class="fa-brands fa-js"></i> Javascript</li>
             <li>Typescript</li>
-            <li>Rust (in the making...)</li>
+            <li><i class="fa-brands fa-rust"></i> Rust (in the making...)</li>
           </ul>
         </li>
 
         <li>
           Frameworks, Libraries
           <ul>
-            <li>React</li>
+            <li><i class="fa-brands fa-react"></i> React</li>
             <li>Selenium</li>
             <li>Jest</li>
-            <li>ChartJS</li>
+            <li><i class="fa-solid fa-chart-simple"></i> ChartJS</li>
           </ul>
         </li>
 
         <li>
           Styling, Markup
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
+            <li><i class="fa-brands fa-html5"></i> HTML</li>
+            <li><i class="fa-brands fa-css3"></i> CSS</li>
           </ul>
         </li>
 
         <li>
           Tooling, Version Control
           <ul>
-            <li>Git</li>
+            <li><i class="fa-brands fa-git"></i> Git</li>
             <li>Postman</li>
             <li>Selenium</li>
           </ul>
         </li>
       </ul>
+    </div>
+
+    <div id="projects">
+      <h2><a class="section" href="#projects">Projects & References</a></h2>
+    </div>
+
+    <div id="gallery">
+      <h2><a class="section" href="#gallery">Gallery</a></h2>
+    </div>
+
+    <div id="contact">
+      <h2><a class="section" href="#contact">Contact</a></h2>
+
+      <p>Follow or contact me on:</p>
+
+      <div>
+        •
+        <a
+          class="button-link"
+          rel="me"
+          href="https://x.com/7eeeven"
+          target="_blank"
+          >Twitter</a
+        >
+        •
+        <a
+          class="button-link"
+          rel="me"
+          href="https://github.com/Seeeven7"
+          target="_blank"
+          >GitHub</a
+        >
+      </div>
     </div>
 
     <footer></footer>
