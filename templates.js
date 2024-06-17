@@ -4,6 +4,8 @@ const menu = `
 <ul>
   <li><a class="nav-link" href="#about">About</a></li>
 
+  <li><a class="nav-link" href="#tech-stack">Tech Stack</a></li>
+
   <li>
     <a class="nav-link" href="#projects">Projects & References</a>
   </li>
