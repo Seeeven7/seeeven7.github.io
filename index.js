@@ -7,7 +7,7 @@ function addEventListeners() {}
 
 function sayHelloInConsole() {
   console.log(
-    "%cHey there, I am not hiring but I am interested to work with you! Just contact me.",
+    "%cHey there, I am not hiring but I am open to job inquiries! Just contact me.",
     "color: grey; font-weight: bold; background-color: black;padding: 5px; font-size: 1.5em;"
   );
 }
